@@ -1,14 +1,9 @@
 import requests
 import pandas as pd
 import urllib
-from urllib import request, response
 from bs4 import BeautifulSoup
 import scrapy
-from scrapy.crawler import CrawlerProcess
-from scrapy.selector import Selector
-from selenium import webdriver
-import time
-import csv
+
 
 
 class RentHouses(scrapy.Spider):
